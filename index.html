@@ -7,12 +7,91 @@
     <title>htmlpage</title>
 </head>
 <body>
-    <h2>Hi my name is Glen</h2>
-    <p>This is my profile pic</p>
+    <h2>Low Jun Jie, Glen</h2>
+    <p>Profile</p>
     <img src="glen.jpg"
     width= "320"
     height= "420"/>
-    <p>Bio: I am 22 years old this year and a current student at SCIS.</p>
+    <p>Bio: Hi, I am Glen, a year 2 SCIS student. I am very friendly and my favourite fruit is durian!
+        If you want to be my friend do fill up the form below! Refer to my timetable too and we can meet 
+        when I am free! :>
+    </p>
     <br/>
+    
+    <!-- Timetable for this Sem -->
+    <p> This is my timetable for this Semester</p>
+    <table border="1">
+        <tr>
+            <th></th>
+            <th>0815 - 1130</th>
+            <th>1200 - 1515</th>
+            <th>1530 - 1845</th>
+            <th>1900 - 2215</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td style="text-align: center;">CT</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td style="text-align: center;">BPAS</td>
+            <td></td>
+            <td style="text-align: center;">IDP</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td colspan="2" style="text-align: center;">Work</td>
+            <td></td>
+            <td style="text-align: center;">TA IS110</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;">WAD2</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+    <form action="" method="post">
+        <table border="1">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="Name" value="Enter Your First Name" size="20"/></td>
+            </tr>
+            <tr>
+                <td>Relationship Status:</td>
+                <td>
+                    <input name="Relationship" type="radio" value="taken"/> Taken
+                    <input name="Relationship" type="radio" value="single"/> Single
+                    <input name="Relationship" type="radio" value="complicated"/> Complicated
+                </td>
+            </tr>
+            <tr>
+                <td>Fravourite Fruits:</td>
+                <td>
+                    <input name="Fruits[]" type="checkbox" value="apple"/> Apple
+                     <input name="Fruits[]" type="checkbox" value="pear"/> Pear
+                     <input name="Fruits[]" type="checkbox" value="banana"/> Banana
+                     <input name="Fruits[]" type="checkbox" value="watermelon"/> Watermelon
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="text-align: center;"><input type="submit" value="Send ITTT" /></td>
+            </tr> 
+         </table>
+    </form>
 </body>
 </html>
